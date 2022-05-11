@@ -54,3 +54,7 @@ nav ul ul ul li {
     top: -60px;
     left: 150px;
 }
+.dropdown{
+    position: fixed;
+    top: 0;
+}
