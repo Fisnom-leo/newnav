@@ -4,9 +4,12 @@ body {
 }
 
 .dropdown {
-    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 nav {
+    width: auto;
     height: 60px;
     background: #2c3e50;
     box-shadow: 0 10px 15px rgba(123, 76, 76, 0.1);
@@ -54,7 +57,7 @@ nav ul ul ul li {
     top: -60px;
     left: 150px;
 }
-.dropdown{
-    position: fixed;
-    top: 0;
+
+h1 {
+    margin-top: 80px;
 }
